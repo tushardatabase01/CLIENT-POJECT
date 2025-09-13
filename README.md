@@ -1,12 +1,17 @@
 # CLIENT-POJECT
 FicZon Inc Client : Sales Effectiveness | Category: Product Sales Project
 Sales Effectiveness Prediction – Client Project
+ 
+ 
+ 
  Project Overview
 
 This project was developed for a client (FicZon Inc) to improve sales effectiveness by leveraging machine learning for lead categorization.
 
 The goal was to automate classification of sales leads into High Potential vs. Low Potential categories, reducing dependency on manual categorization and improving conversion rates.
 
+
+ 
  Objectives
 
 Perform Exploratory Data Analysis (EDA) to identify sales insights.
@@ -39,6 +44,9 @@ Delivery_Mode
 
 Status
 
+ 
+ 
+ 
  Tech Stack
 
 Programming: Python (Jupyter Notebook)
@@ -60,6 +68,9 @@ imbalanced-learn (SMOTE for handling imbalance)
 Data Extraction – pulled data directly from client’s MySQL DB.
 
 Data Cleaning & Preprocessing – handled missing values, categorical encoding, scaling.
+
+
+
 
 EDA:
 
@@ -87,6 +98,10 @@ Balanced with SMOTE to fix class imbalance.
 
 Evaluation – accuracy, classification report, confusion matrix.
 
+
+ 
+ 
+ 
  Key Insights
 
 Lead Quality: Majority of leads were low-potential, indicating poor targeting.
@@ -97,6 +112,8 @@ Sales Agents: Performance varied significantly — best practices from high-perf
 
 Time Trends: Specific months and hours showed higher engagement, suggesting timing impacts conversion.
 
+ 
+ 
  Results
 
 Random Forest & Gradient Boosting outperformed other models with higher classification accuracy.
